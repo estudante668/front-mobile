@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +12,7 @@
 body {
     height: 100vh;
     background-color: #f9f4ec;
+    font-family: "Poppins", serif;
 }
 
 #header{
@@ -20,7 +25,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 4000;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 #header .fa-regular{
@@ -89,6 +94,12 @@ body {
     margin-bottom: 1rem;
 }
  
+.content-titulos .link{
+    color:  #ffc107;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+
 .lista-modelos{
     display: flex;
     flex-direction: row;
@@ -113,9 +124,15 @@ body {
     margin-bottom: 1rem;
 }
 
+.recommend-titulos .recommend-link{
+    color:  #ffc107;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+
 .lista-imagens img{
 width: 150px;
-height: 180px;
+height: 170px;
 border-radius: 1rem;
 }
 
@@ -172,4 +189,9 @@ border-radius: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+}
+
+.lista-icons .fa-solid{
+    color: #000;
 }
